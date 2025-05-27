@@ -7,6 +7,5 @@ import preact from '@astrojs/preact';
 export default defineConfig({
   site: 'https://yuruina.github.io/',
   base: 'tutorial-astro',
-  outDir: 'docs',
   integrations: [preact()],
 });
