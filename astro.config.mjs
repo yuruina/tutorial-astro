@@ -5,7 +5,8 @@ import preact from '@astrojs/preact';
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/tutorial-astro/',
+  site: 'https://yuruina.github.com/',
+  base: 'tutorial-astro',
   outDir: 'docs',
   integrations: [preact()],
 });
